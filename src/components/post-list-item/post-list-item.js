@@ -1,19 +1,21 @@
 import React from 'react';
 
+import './post-list-item.css';
+
 const PostListItem = () => {
     return (
         <li className='app-list-item d-flex justify-content-between'>
             <span className='app-list-item-label'>
                 Hello World!
             </span>
-            <div className='d-flex justify-cintent-center align-items-center'>
+            <div className='d-flex justify-content-center align-items-center'>
                 <button type="button" className='btn-star btn-sm'>
-                    <i className='fa fa-star'></i>
+                    <i className='bi bi-star'></i>
                 </button>
                 <button type="button" className='btn-trash btn-sm'>
-                    <i className='fa fa-trash-o'></i>
+                    <i className='bi bi-trash'></i>
                 </button>
-                <i className='fa fa-heart'></i>
+                <i className='bi bi-heart'></i>
             </div>
         </li>
     )
